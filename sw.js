@@ -1,6 +1,6 @@
 // Guarda o app no iPhone para abrir sem internet.
 // Ao publicar uma versão nova, troque VERSION para o app baixar os arquivos de novo.
-const VERSION = 'revela-v1';
+const VERSION = 'revela-v2';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'fonts/manrope-latin.woff2', 'icons/icon-180.png', 'icons/icon-192.png', 'icons/icon-512.png'];
 
 self.addEventListener('install', e => {
